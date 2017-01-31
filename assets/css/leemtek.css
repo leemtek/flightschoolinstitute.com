@@ -1,4 +1,21 @@
+/* Global */
+.space-bottom-20 {
+	margin-bottom: 20px;
+}
+
+/* Header */
+.logo {
+	padding-top: 10px;
+}
+
+/* Main page */
 .flight-school-hd-bg {
 	background: url('../../assets/images/HD-American-Football-Wallpaper.jpg') 50% 0px no-repeat;
 	padding: 250px 0 250px 0;
 }
+
+#what > div > div > div > strong > ul > li {
+	list-style: none;
+}
+
+/* Drills Page*/
