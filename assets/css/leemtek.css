@@ -1,21 +1,36 @@
 /* Global */
-.space-bottom-20 {
-	margin-bottom: 20px;
+.space-bottom-20 { margin-bottom: 20px; }
+.space-bottom-40 { margin-bottom: 40px; }
+
+.list-style-none { list-style: none; }
+
+/* Logo */
+.site-slogan {
+	font-size: 20px;
+    text-align: center;
+    padding: 22px 0;
+    font-weight: 500;
+	color: #333;
 }
 
-/* Header */
-.logo {
-	padding-top: 10px;
+.site-slogan a {
+	color: #333;
 }
 
-/* Main page */
+.site-slogan a:hover {
+	text-decoration: none;
+}
+
+/* First Background */
 .flight-school-hd-bg {
-	background: url('../../assets/images/HD-American-Football-Wallpaper.jpg') 50% 0px no-repeat;
-	padding: 250px 0 250px 0;
+	background: url('../../assets/images/main.jpg') 50% 0px no-repeat;
+	padding: 235px 0;
 }
 
-#what > div > div > div > strong > ul > li {
-	list-style: none;
+/* Responsive */
+@media (min-width: 992px) {
+	/* Logo */
+	.fixed-header-on .header .site-slogan {
+		padding: 16px 0;
+	}
 }
-
-/* Drills Page*/
