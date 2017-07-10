@@ -12,6 +12,7 @@ import { FSIAboutComponent } from './pages/about.component';
 import { FSIServicesComponent } from './pages/services.component';
 import { FSIJoinComponent } from './pages/join.component';
 import { FSIFooterComponent } from './pages/footer.component';
+import { HomeComponent } from './home.component';
 
 // Video Pages
 import { FSIDrillsComponent } from './pages/video-pages/drills.component';
@@ -28,6 +29,7 @@ import { FSIRouteComponent } from './pages/video-pages/route.component';
     FSIServicesComponent,
     FSIJoinComponent,
     FSIFooterComponent,
+    HomeComponent,
 
     // Video Pages
     FSIDrillsComponent,

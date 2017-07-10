@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
             <div class="image-box style-2 mb-20">
               <div class="overlay-container overlay-visible">
                 <img src="assets/images/football.jpg" width="100%" alt="">
-                <a routerLink="drills" class="overlay-link"><i class="fa fa-link"></i></a>
+                <a routerLink="/drills" class="overlay-link"><i class="fa fa-link"></i></a>
                 <div class="overlay-bottom hidden-xs">
                   <div class="text">
                     <p class="margin-clear text-left">Drills</p>
@@ -29,7 +29,7 @@ import { Component } from '@angular/core';
                   <div class="separator"></div>
                 </div>
                 <p>We offer video collection on how to develop specific skill sets necessary to improve your play at the wide receiver position. Each drill is design with coaching points that articulate how to improve your skills, and explain defensive tactic.</p>
-                <a routerLink="drills">View Videos<i class="pl-5 fa fa-angle-double-right"></i></a>
+                <a routerLink="/drills">View Videos<i class="pl-5 fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>

@@ -4,16 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <fsi-header></fsi-header>
-    <fsi-what></fsi-what>
-    <fsi-about></fsi-about>
-    <fsi-services></fsi-services>
-    <fsi-join></fsi-join>
+    <router-outlet (deactivate)="onDeactivate()"></router-outlet>
     <fsi-footer></fsi-footer>
-    <router-outlet></router-outlet>
   `,
   styles: ['']
 })
 
 export class AppComponent {
-  
+  onDeactivate() {
+    document.body.scrollTop = 0;
+  }
 }

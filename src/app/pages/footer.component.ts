@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
                 <div class="footer-content">
                   <div class="logo-footer"><h3>Flight School Institute</h3></div>
                   <p><strong>Summer skills camp</strong> (one week 6/19-23) <strong>$100</strong></p>
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="9CD3X96546J5L">
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
