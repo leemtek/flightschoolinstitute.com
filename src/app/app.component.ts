@@ -2,9 +2,18 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <fsi-header></fsi-header>
+    <fsi-what></fsi-what>
+    <fsi-about></fsi-about>
+    <fsi-services></fsi-services>
+    <fsi-join></fsi-join>
+    <fsi-footer></fsi-footer>
+    <router-outlet></router-outlet>
+  `,
+  styles: ['']
 })
+
 export class AppComponent {
-  title = 'app works!';
+  
 }
