@@ -13,6 +13,9 @@ import { FSIServicesComponent } from './pages/services.component';
 import { FSIJoinComponent } from './pages/join.component';
 import { FSIFooterComponent } from './pages/footer.component';
 import { HomeComponent } from './home.component';
+import { SignupComponent } from './auth/signup/signup.component'
+import { SigninComponent } from './auth/signin/signin.component'
+import { AuthService } from './auth/auth.service'
 
 // Video Pages
 import { FSIDrillsComponent } from './pages/video-pages/drills.component';
@@ -30,6 +33,8 @@ import { FSIRouteComponent } from './pages/video-pages/route.component';
     FSIJoinComponent,
     FSIFooterComponent,
     HomeComponent,
+    SignupComponent,
+    SigninComponent,
 
     // Video Pages
     FSIDrillsComponent,
@@ -42,7 +47,7 @@ import { FSIRouteComponent } from './pages/video-pages/route.component';
     HttpModule,
     routes
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
